@@ -7,7 +7,7 @@ A flyweight object essentially has two kinds of attributes – <b>intrinsic</b> 
 An intrinsic state attribute is stored/shared in the flyweight object, and it is independent of the flyweight’s context. As the best practice, we should make intrinsic states immutable.
 An extrinsic state varies with the flyweight’s context, which is why they cannot be shared. Client objects maintain the extrinsic state, and they need to pass this to a flyweight object during object creation.
 
-I have made a Car class that has Company and Model as intrinsic attributes and Owner and Number as extrinsic attributes. The FlyWeight class will hold the intrinsic attributes and extrinsic attributes will be passed to this for displaying. There is a FlyWeight factory that caches various pairs of Company and Model on creation.
+I have made a Car class that has Company and Model as intrinsic attributes and Owner and Number as extrinsic attributes. The FlyWeight class will hold the intrinsic attributes and extrinsic attributes will be passed to this for displaying. There is a FlyWeight factory that caches various pairs of Company and Model on creation. There is a console app in which users can create new cars and see if an existing FlyWeight object is being used or a new one is created and also after adding new car the current list of FlyWeight objects will be shown.
 
 # Class relationship
 ![WhatsApp Image 2023-09-15 at 7 29 49 PM](https://github.com/nideez45/FlyWeightPatternDemo/assets/75631297/d6281260-2b14-41fd-a4cd-7d4e3592527d)
