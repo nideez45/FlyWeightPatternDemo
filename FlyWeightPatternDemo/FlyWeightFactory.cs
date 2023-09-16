@@ -1,4 +1,16 @@
-﻿using System;
+﻿/******************************************************************************
+ * Filename    = FlyWeightFactory.cs
+ *
+ * Author      = Nideesh N
+ *
+ * Product     = SoftwareDesignPatterns
+ * 
+ * Project     = FlyWeightPatternDemo
+ *
+ * Description = Represents a factory for managing flyweight objects.
+ *****************************************************************************/
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
