@@ -1,4 +1,16 @@
-﻿using System;
+﻿/******************************************************************************
+ * Filename    = Car.cs
+ *
+ * Author      = Nideesh N
+ *
+ * Product     = SoftwareDesignPatterns
+ * 
+ * Project     = FlyWeightPatternDemo
+ *
+ * Description = Contains the Car class
+ *****************************************************************************/
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
