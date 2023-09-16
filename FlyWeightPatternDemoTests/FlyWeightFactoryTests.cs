@@ -1,4 +1,16 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿/******************************************************************************
+ * Filename    = FlyWeightFactoryTests.cs
+ *
+ * Author      = Nideesh N
+ *
+ * Product     = SoftwareDesignPatterns
+ * 
+ * Project     = FlyWeightPatternDemoTests
+ *
+ * Description = Unit tests for Fly Weight pattern demo.
+ *****************************************************************************/
+
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 using FlyWeightPatternDemo;
 namespace FlyWeightPatternDemo.Tests
 {
