@@ -1,4 +1,18 @@
 ﻿// See https://aka.ms/new-console-template for more information
+
+﻿/******************************************************************************
+ * Filename    = Program.cs
+ *
+ * Author      = Nideesh N
+ *
+ * Product     = SoftwareDesignPatterns
+ * 
+ * Project     = FlyWeightPatternDemo
+ *
+ * Description = Console app for user to add a new car and see the flyweight objects.
+ *****************************************************************************/
+
+
 using System.Runtime.InteropServices;
 using FlyWeightPatternDemo;
 
