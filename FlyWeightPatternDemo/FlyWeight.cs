@@ -1,4 +1,16 @@
-﻿using System;
+﻿/******************************************************************************
+ * Filename    = FlyWeight.cs
+ *
+ * Author      = Nideesh N
+ *
+ * Product     = SoftwareDesignPatterns
+ * 
+ * Project     = FlyWeightPatternDemo
+ *
+ * Description = Represents a flyweight object that shares state with multiple instances.
+ *****************************************************************************/
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
